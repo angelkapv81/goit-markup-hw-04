@@ -377,3 +377,10 @@ h2 {
   cursor: pointer;
   color: #ffffff;
 }
+.customers {
+  color: black;
+  background-color: #2196f3;
+  height: 92px;
+  width: 170px;
+  fill: red;
+} 
