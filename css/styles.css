@@ -70,6 +70,16 @@ h2 {
 
   --item-work-gap: 30px;
 }
+ .contact-nav:focus > .contact-top,
+ .contact-nav:focus > .contact, 
+.contact-nav:hover > .contact-top,
+.contact-nav:hover > .contact {
+  fill: var(--accent-color);
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+
 
 .site-nav .link.current {
   color: var(--accent-color);
@@ -119,11 +129,11 @@ h2 {
   fill: var(--text-color);
   margin-right: 10px;
 }
-.contact-top:hover,
+/* .contact-top:hover,
 .contact-top:focus {
   cursor: pointer;
   fill: var(--accent-color);
-} 
+}  */
 
 .footer {
   background-color: var(--background-color-hero);
