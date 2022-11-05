@@ -80,8 +80,6 @@ h2 {
 }
 .contact-nav {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .site-nav .link.current {
@@ -128,10 +126,12 @@ h2 {
 .contact {
   color: var(--text-color);
   padding: 32px 0;
+  vertical-align: middle;
 }
 .contact-top {
   fill: currentColor;
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .footer {
@@ -277,7 +277,7 @@ h2 {
 }
 .position {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -413,9 +413,17 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+.foot-address {
+  display: flex;
+}
+
 .cont-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.foot-network {
+  padding-top: 72px;
 }
 .contactfooter-tel {
   display: inline-block;
